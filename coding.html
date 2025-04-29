@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coral Reefs Presentation</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #001f3f;
+      color: white;
+      overflow: hidden;
+    }
+
+    .slide-container {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+
+    .slide {
+      display: none;
+      width: 90%;
+      max-width: 900px;
+      height: 80vh;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      overflow-y: auto;
+    }
+
+    .active-slide {
+      display: block;
+      animation: fadeIn 0.8s;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    h1 {
+      margin-bottom: 15px;
+      font-size: 2em;
+      color: #00b4d8;
+    }
+
+    p {
+      margin-bottom: 20px;
+      text-align: justify;
+      line-height: 1.6;
+    }
+
+    img {
+      width: 80%;
+      max-width: 400px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+
+    video {
+      width: 80%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+
+    .navigation {
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 50px;
+    }
+
+    .nav-btn {
+      background-color: #00b4d8;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 20px;
+      color: white;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .nav-btn:hover {
+      background-color: #0096c7;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.6);
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+<div class="slide-container">
+
+  <!-- Slide 1 -->
+  <div class="slide active-slide" id="slide1">
+    <h1>Coral Reefs</h1>
+    <img src="ppp.jpg" alt="Coral Reef 1">
+    <p>
+      Coral reefs are some of the most diverse and vibrant ecosystems on Earth. They are made up of colonies of tiny animals called coral polyps. These polyps secrete calcium carbonate to form hard skeletons that provide the foundation of reefs. Coral reefs exist mostly in shallow, warm tropical waters. They cover less than 1% of the ocean floor but support more than 25% of all marine life. There are three main types of coral reefs: fringing reefs, barrier reefs, and atolls. The Great Barrier Reef in Australia is the largest coral reef system in the world. Coral reefs are sometimes referred to as the "rainforests of the sea" because of their high biodiversity. They are ancient structures that have evolved over millions of years. Reefs provide food, shelter, and breeding grounds for countless marine species. Coral polyps rely on a mutualistic relationship with tiny algae called zooxanthellae, which live in their tissues and provide energy through photosynthesis. The vivid colors of coral reefs come from these algae. Without them, corals can become stressed and bleach. Reefs are vital for fisheries, tourism, and protecting coastlines from storms and erosion. They are essential for the survival of many marine creatures and benefit human economies and societies as well.
+    </p>
+  </div>
+
+  <!-- Slide 2 -->
+  <div class="slide" id="slide2">
+    <h1>Biodiversity</h1>
+    <img src="pppp.jpg" alt="Coral Reef 2">
+    <p>
+      Coral reefs support an estimated one million species of marine organisms. These include over 4,000 species of fish, 800 types of coral, and thousands of other invertebrates. Reefs have a complex three-dimensional structure that creates countless microhabitats. Small fish hide among coral branches while larger predators patrol the edges. Crabs, shrimp, sea stars, and sea cucumbers all find homes in the nooks and crannies of the reef. Algae, sponges, sea urchins, and worms also play key roles in the ecosystem. The diversity of life found in coral reefs rivals that of tropical rainforests. Many species have symbiotic relationships, like cleaner fish that eat parasites off larger fish. Coral reefs also help recycle nutrients in otherwise nutrient-poor tropical seas. Their structure can slow ocean currents, allowing plankton and nutrients to settle. The web of life on a reef is intricate and balanced. If one species disappears, the entire system can be affected. Biodiversity helps reefs resist disease, adapt to change, and recover from damage. Each organism plays a role—some build, some clean, some protect. Together, they maintain the health and resilience of the reef.
+    </p>
+  </div>
+
+  <!-- Slide 3 -->
+  <div class="slide" id="slide3">
+    <h1>Threats</h1>
+    <img src="ppppp.jpg" alt="Coral Reef 3">
+    <p>
+      Coral reefs face numerous threats from both natural and human sources. The most urgent threat is climate change. Rising ocean temperatures cause coral bleaching, a condition in which corals expel the algae that live in their tissues, leading to starvation and often death. Ocean acidification, caused by higher CO₂ levels, weakens coral skeletons and hinders their growth. In addition to climate change, pollution from agriculture and sewage introduces harmful substances into reef waters. Sedimentation from deforestation and construction clouds the water and blocks sunlight. Overfishing removes key species that help keep reefs in balance. Destructive practices like blast fishing and cyanide fishing destroy reef structure. Unsustainable tourism, such as touching corals or anchoring on reefs, also causes damage. Invasive species like the crown-of-thorns starfish can devastate coral populations. Coral diseases are also on the rise due to stress and poor water quality. If these threats continue, many reefs could disappear within decades. Scientists estimate that more than half of the world’s coral reefs have already been lost or severely damaged. The loss of coral reefs would impact marine biodiversity, coastal protection, and millions of people who rely on them for food and income.
+    </p>
+  </div>
+
+  <!-- Slide 4 -->
+  <div class="slide" id="slide4">
+    <h1>Conservation</h1>
+    <img src="pppppp.jpg" alt="Coral Reef 4">
+    <p>
+      Despite the challenges, there are ongoing efforts to conserve and restore coral reefs. One approach is the creation of marine protected areas (MPAs), where fishing and other damaging activities are restricted. MPAs help ecosystems recover and build resilience. Coral restoration projects include coral farming, where fragments are grown in underwater nurseries and then transplanted back onto degraded reefs. Scientists are also experimenting with heat-resistant coral strains that can better survive warming waters. Reducing carbon emissions is critical to slowing climate change and protecting reefs in the long term. Local actions, such as controlling pollution and managing fisheries, also make a big difference. Education and community involvement are key components of many conservation programs. Tourists can help by practicing responsible snorkeling and diving. Governments and international organizations have launched initiatives like the Coral Triangle Initiative and the International Coral Reef Initiative to coordinate global conservation. Technology, such as satellite monitoring and artificial intelligence, is helping scientists track reef health and predict changes. Every action counts, from reducing plastic waste to supporting reef-friendly businesses. Coral reefs can recover if given the chance, but action is needed now to preserve them for future generations.
+    </p>
+  </div>
+
+  <!-- Slide 5 -->
+  <div class="slide" id="slide5">
+    <h1>Future Outlook</h1>
+    <img src="ppppppp.jpg" alt="Coral Reef 5">
+    <p>
+      The future of coral reefs depends on global cooperation and local commitment. If current warming trends continue, 90% of coral reefs could be at risk by 2050. However, there is still hope. Coral reefs have shown the ability to recover from stress when given time and protection. Some areas, known as climate refugia, may remain suitable for coral survival even as the climate changes. Protecting these areas is a priority. Innovations in science and conservation offer new tools for reef management. Artificial reefs made of sustainable materials can provide habitat and reduce pressure on natural reefs. Genetic research may one day enable corals to adapt more quickly to environmental change. Empowering coastal communities with knowledge and resources can lead to more effective conservation. Traditional ecological knowledge, combined with modern science, can offer powerful solutions. Public awareness is growing, and more people are recognizing the value of coral reefs. By making environmentally conscious choices, individuals can support reef conservation in their daily lives. If humanity acts wisely and swiftly, coral reefs can continue to thrive. Their survival is not only crucial for marine life but also for the health and well-being of people across the globe.
+    </p>
+    <video controls>
+      <source src="5 Minutes of Wonderful Coral Reef, Sealife, Ocean and Aquarium Relaxing and Meditation Music.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <!-- Navigation -->
+  <div class="navigation">
+    <button class="nav-btn" id="prevBtn">Previous</button>
+    <button class="nav-btn" id="nextBtn">Next</button>
+  </div>
+
+</div>
+
+<footer>
+  &copy; 2025 Coral Reef Awareness Project | All rights reserved.
+</footer>
+
+<script>
+  const slides = document.querySelectorAll('.slide');
+  let currentSlide = 0;
+
+  document.getElementById('nextBtn').addEventListener('click', () => {
+    changeSlide(currentSlide + 1);
+  });
+
+  document.getElementById('prevBtn').addEventListener('click', () => {
+    changeSlide(currentSlide - 1);
+  });
+
+  function changeSlide(newIndex) {
+    slides[currentSlide].classList.remove('active-slide');
+    currentSlide = (newIndex + slides.length) % slides.length;
+    slides[currentSlide].classList.add('active-slide');
+  }
+</script>
+
+</body>
+</html>
